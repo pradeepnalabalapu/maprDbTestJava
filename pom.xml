@@ -17,7 +17,8 @@
   	<dependency>
   		<groupId>com.mapr.ojai</groupId>
   		<artifactId>mapr-ojai-driver</artifactId>
-  		<version>6.0.0-mapr</version>
+  		<version>6.1.0-mapr</version>
   	</dependency>
+  	
   </dependencies>
 </project>
