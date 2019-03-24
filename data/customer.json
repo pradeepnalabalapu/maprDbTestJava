@@ -1,0 +1,551 @@
+{
+    "_id": "1+55003057",
+    "depricated_customer_id": 33655,
+    "brand_id": 1,
+    "customer_no": 55003057,
+    "alpha_key": "Rock lson   ",
+    "phonetic_key": "Roc son     ",
+    "sas_sk": null,
+    "first_name": "Rocky",
+    "last_name": "Carlson",
+    "gender": "F",
+    "birth_month": 9,
+    "membership_type_code": "O   ",
+    "date_last_modified": "7/28/2014 4:57:00 AM",
+    "create_source_event_id": 11702520,
+    "atg_email_address": "RoCarlson@email.com",
+    "events": [
+        {
+            "depricated_event_id": 11702520,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 2671,
+            "event_datetime": "12/9/1998 12:00:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "10/6/2010 12:31:00 PM",
+            "event_type": {
+                "event_type_code": "MAILER",
+                "event_type_desc": "CUSTOMERS FROM GUEST BOOK PRE MARKETWORKS"
+            },
+            "event_group": {
+                "event_group_code": "CREATE_SOURCE",
+                "event_group_desc": "Create Source"
+            }
+        },
+        {
+            "depricated_event_id": 59769061,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 6812,
+            "event_datetime": "1/26/2010 12:00:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "0",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "1/26/2010 12:00:00 AM",
+            "event_type": {
+                "event_type_code": "SOPEN",
+                "event_type_desc": "SMA Last Date Opened"
+            },
+            "event_group": {
+                "event_group_code": "XUSEM",
+                "event_group_desc": "Unengaged SMA Email Only"
+            }
+        },
+        {
+            "depricated_event_id": 59769056,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 6823,
+            "event_datetime": "11/2/2009 12:00:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "0",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "11/2/2009 12:00:00 AM",
+            "event_type": {
+                "event_type_code": "CEAVS",
+                "event_type_desc": "Chico's EA V Sweep"
+            },
+            "event_group": {
+                "event_group_code": "CHEA",
+                "event_group_desc": "Chico's EA"
+            }
+        },
+        {
+            "depricated_event_id": 59769057,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 6775,
+            "event_datetime": "3/6/2008 12:00:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "0",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "3/6/2008 12:00:00 AM",
+            "event_type": {
+                "event_type_code": "UPDT",
+                "event_type_desc": "Updated Address by NCOA"
+            },
+            "event_group": {
+                "event_group_code": "NCOA",
+                "event_group_desc": "National Change Of Address"
+            }
+        },
+        {
+            "depricated_event_id": 59769058,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 6778,
+            "event_datetime": "3/8/2010 12:00:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "0",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "3/8/2010 12:00:00 AM",
+            "event_type": {
+                "event_type_code": "CCLIK",
+                "event_type_desc": "CHS Date Last Clicked"
+            },
+            "event_group": {
+                "event_group_code": "XUCEM",
+                "event_group_desc": "Unengaged CHS Email Only"
+            }
+        },
+        {
+            "depricated_event_id": 59769059,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 6786,
+            "event_datetime": "3/13/2010 12:00:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "0",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "3/13/2010 12:00:00 AM",
+            "event_type": {
+                "event_type_code": "COPEN",
+                "event_type_desc": "CHS Date Last Opened"
+            },
+            "event_group": {
+                "event_group_code": "XUCEM",
+                "event_group_desc": "Unengaged CHS Email Only"
+            }
+        },
+        {
+            "depricated_event_id": 59769060,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 6779,
+            "event_datetime": "12/31/2009 12:00:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "0",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "12/31/2009 12:00:00 AM",
+            "event_type": {
+                "event_type_code": "SCLIK",
+                "event_type_desc": "SMA Last Date Clicked"
+            },
+            "event_group": {
+                "event_group_code": "XUSEM",
+                "event_group_desc": "Unengaged SMA Email Only"
+            }
+        },
+        {
+            "depricated_event_id": 118990606,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 8800,
+            "event_datetime": "2/22/2011 10:11:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "2/22/2011 10:11:00 AM",
+            "event_type": {
+                "event_type_code": "CPRIN0709",
+                "event_type_desc": "CPRIN0709"
+            },
+            "event_group": {
+                "event_group_code": "SWPS",
+                "event_group_desc": "Alternate Key Sweepstakes"
+            }
+        },
+        {
+            "depricated_event_id": 118990607,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 6896,
+            "event_datetime": "2/22/2011 10:11:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "2/22/2011 10:11:00 AM",
+            "event_type": {
+                "event_type_code": "CVSW0909B",
+                "event_type_desc": "CVSW0909B"
+            },
+            "event_group": {
+                "event_group_code": "SWPS",
+                "event_group_desc": "Alternate Key Sweepstakes"
+            }
+        },
+        {
+            "depricated_event_id": 118990609,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 8355,
+            "event_datetime": "2/22/2011 10:11:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "2/22/2011 10:11:00 AM",
+            "event_type": {
+                "event_type_code": "TORTOLA",
+                "event_type_desc": "TORTOLA"
+            },
+            "event_group": {
+                "event_group_code": "SWPS",
+                "event_group_desc": "Alternate Key Sweepstakes"
+            }
+        },
+        {
+            "depricated_event_id": 118990608,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 9325,
+            "event_datetime": "2/22/2011 10:11:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "2/22/2011 10:11:00 AM",
+            "event_type": {
+                "event_type_code": "SJ2AA",
+                "event_type_desc": "SJ2AA"
+            },
+            "event_group": {
+                "event_group_code": "PROS",
+                "event_group_desc": "Alternate Key ABACUS NAMES"
+            }
+        },
+        {
+            "depricated_event_id": 118990605,
+            "ref_event_id": null,
+            "root_event_id": null,
+            "event_type_id": 9172,
+            "event_datetime": "2/22/2011 10:11:00 AM",
+            "store_code": "",
+            "employee_code": "",
+            "customer_event_status": "",
+            "text_document_id": null,
+            "ext_transaction_id": null,
+            "date_last_modified": "2/22/2011 10:11:00 AM",
+            "event_type": {
+                "event_type_code": "CMSI0710",
+                "event_type_desc": "CMSI0710"
+            },
+            "event_group": {
+                "event_group_code": "SWPS",
+                "event_group_desc": "Alternate Key Sweepstakes"
+            }
+        }
+    ],
+    "preferences": [
+        {
+            "depricated_preference_id": 24902826,
+            "preference_type_id": 40,
+            "text_data": "",
+            "number_data": 0,
+            "date_data": "4/9/2014 12:00:00 AM",
+            "reference_type": "",
+            "reference_id": null,
+            "date_last_modified": "4/10/2014 10:48:00 AM",
+            "preference_type": {
+                "preference_type_code": "COPEN",
+                "preference_type_desc": "CHS Date Last Opened"
+            },
+            "preference_group": {
+                "preference_group_code": "UCEM",
+                "preference_group_desc": "Unengaged CHS Email Only"
+            }
+        },
+        {
+            "depricated_preference_id": 279618685,
+            "preference_type_id": 20,
+            "text_data": "",
+            "number_data": 0,
+            "date_data": "12/4/2013 12:00:00 AM",
+            "reference_type": "",
+            "reference_id": null,
+            "date_last_modified": "12/5/2013 10:49:00 AM",
+            "preference_type": {
+                "preference_type_code": "DNES",
+                "preference_type_desc": "Do Not Email Soma Only"
+            },
+            "preference_group": {
+                "preference_group_code": "PERM",
+                "preference_group_desc": "Customer Permissions"
+            }
+        },
+        {
+            "depricated_preference_id": 283178370,
+            "preference_type_id": 42,
+            "text_data": "",
+            "number_data": 0,
+            "date_data": "3/25/2014 12:00:00 AM",
+            "reference_type": "",
+            "reference_id": null,
+            "date_last_modified": "3/26/2014 10:42:00 AM",
+            "preference_type": {
+                "preference_type_code": "CCLIK",
+                "preference_type_desc": "CHS Date Last Clicked"
+            },
+            "preference_group": {
+                "preference_group_code": "UCEM",
+                "preference_group_desc": "Unengaged CHS Email Only"
+            }
+        },
+        {
+            "depricated_preference_id": 277766637,
+            "preference_type_id": 15,
+            "text_data": "",
+            "number_data": 0,
+            "date_data": "11/1/2013 12:00:00 AM",
+            "reference_type": "",
+            "reference_id": null,
+            "date_last_modified": "11/2/2013 11:03:00 AM",
+            "preference_type": {
+                "preference_type_code": "DNEC",
+                "preference_type_desc": "Do Not Email Chico's"
+            },
+            "preference_group": {
+                "preference_group_code": "PERM",
+                "preference_group_desc": "Customer Permissions"
+            }
+        },
+        {
+            "depricated_preference_id": 269361370,
+            "preference_type_id": 39,
+            "text_data": "",
+            "number_data": 0,
+            "date_data": "12/4/2013 12:00:00 AM",
+            "reference_type": "",
+            "reference_id": null,
+            "date_last_modified": "12/5/2013 10:49:00 AM",
+            "preference_type": {
+                "preference_type_code": "SOPEN",
+                "preference_type_desc": "SMA Last Date Opened"
+            },
+            "preference_group": {
+                "preference_group_code": "USEM",
+                "preference_group_desc": "Unengaged SMA Email Only"
+            }
+        },
+        {
+            "depricated_preference_id": 274337451,
+            "preference_type_id": 43,
+            "text_data": "",
+            "number_data": 0,
+            "date_data": "12/4/2013 12:00:00 AM",
+            "reference_type": "",
+            "reference_id": null,
+            "date_last_modified": "12/5/2013 10:49:00 AM",
+            "preference_type": {
+                "preference_type_code": "SCLIK",
+                "preference_type_desc": "SMA Last Date Clicked"
+            },
+            "preference_group": {
+                "preference_group_code": "USEM",
+                "preference_group_desc": "Unengaged SMA Email Only"
+            }
+        }
+    ],
+    "contact_phone_pii": [
+        {
+            "depricated_phone_id": 36904365,
+            "phone_type": "H",
+            "main": true,
+            "opt_out": false,
+            "phone_number": "2068539480",
+            "date_last_modified": "7/28/2014 4:58:00 AM"
+        }
+    ],
+    "contact_mail_pii": [
+        {
+            "depricated_mail_id": 11702779,
+            "mail_type": "H",
+            "main": true,
+            "opt_out": false,
+            "country_code": "USA",
+            "address_match_key": "98057368   STEVE     ",
+            "mail_indicator_id": 0,
+            "carrier_route": "",
+            "ncoa_pin": "5000012428416",
+            "street1": "980    STEVE    ",
+            "street2": "",
+            "city": "Renton",
+            "state": "WA",
+            "dpv_chkdigit": "68 2",
+            "dpv_lot_no_seq": "0278 A",
+            "zip_code": "98057-3435",
+            "date_last_modified": "7/28/2014 4:58:00 AM",
+            "date_valid_from": "11/8/2010 12:00:00 AM",
+            "date_valid_to": "",
+            "month_from": null,
+            "month_to": null,
+            "qas_match_code": "R913",
+            "return_mail_indicator": false
+        }
+    ],
+    "contact_email_pii": [
+        {
+            "depricated_email_id": 3926681,
+            "email_type": "H",
+            "mail_indicator_id": 0,
+            "main": true,
+            "opt_out": false,
+            "email_address": "RoCarlson@email.com",
+            "date_last_modified": "7/28/2014 4:58:00 AM",
+            "influence_score": null,
+            "no_of_followers": null,
+            "no_of_posts": null
+        }
+    ],
+    "customer_loyalty": [
+        {
+            "depricated_loyalty_id": 11702520,
+            "loyalty_type_id": 1,
+            "is_active": true,
+            "loyalty_date": "5/15/2000 12:00:00 AM",
+            "loyalty_flag": true,
+            "lifetime_spend": 28165.22,
+            "spend_date": "6/30/2016 8:26:00 AM",
+            "date_last_modified": "6/30/2016 8:26:00 AM",
+            "loyalty_tier": null,
+            "loyalty_tier_date": "",
+            "loyalty_spend": null,
+            "loyalty_delta": null,
+            "loyalty_optin_date": "",
+            "loyalty_type": {
+                "loyalty_type_code": "THRESH",
+                "loyalty_type_desc": "Spending Threshold"
+            }
+        }
+    ],
+    "customer_coupon": [
+        {
+            "depricated_coupon_id": 3073543558,
+            "campaign_id": 5567,
+            "coupon_id": 14211,
+            "last_used_date": "",
+            "used_count": null,
+            "last_used_store": "",
+            "date_last_modified": "4/27/2016 10:42:00 AM",
+            "coupon": {
+                "brand_id": 1,
+                "treatment_code": "34851",
+                "campaign_description": "CHS May(Summer 3) Mlr 2016",
+                "treatment_offer": "CHS-SUMMER 3-$25 OFF $100-VALID ALL",
+                "valid_from": "5/4/2016 12:00:00 AM",
+                "valid_to": "6/5/2016 12:00:00 AM",
+                "date_last_modified": "8/26/2016 12:22:00 PM",
+                "singleuseflag": "N",
+                "cpnreviewflg": "Y ",
+                "lookupstrtdt": "5/4/2016 12:00:00 AM"
+            },
+            "campaign": {
+                "campaign_sk": 13354,
+                "campaign_nm": "CHS May Summer 3 Mailer",
+                "campaign_type": 1,
+                "campaign_start_date": "5/4/2016 12:00:00 AM",
+                "campaign_end_date": "6/5/2016 12:00:00 AM",
+                "date_last_modified": "4/27/2016 10:36:00 AM"
+            }
+        },
+        {
+            "depricated_coupon_id": 206784941,
+            "campaign_id": null,
+            "coupon_id": null,
+            "last_used_date": "",
+            "used_count": null,
+            "last_used_store": "",
+            "date_last_modified": "9/25/2011 11:21:00 AM",
+            "coupon": {
+                "brand_id": null,
+                "treatment_code": null,
+                "campaign_description": null,
+                "treatment_offer": null,
+                "valid_from": null,
+                "valid_to": null,
+                "date_last_modified": null,
+                "singleuseflag": null,
+                "cpnreviewflg": null,
+                "lookupstrtdt": null
+            },
+            "campaign": {
+                "campaign_sk": null,
+                "campaign_nm": null,
+                "campaign_type": null,
+                "campaign_start_date": null,
+                "campaign_end_date": null,
+                "date_last_modified": null
+            }
+        }
+    ],
+    "xref": [
+        {
+            "old_brand_id": 1,
+            "old_customer_no": 8138001583,
+            "date_of_obsolescence": "8/23/2000 10:01:00 AM"
+        },
+        {
+            "old_brand_id": 1,
+            "old_customer_no": 9991003784,
+            "date_of_obsolescence": "8/21/2000 4:27:00 PM"
+        },
+        {
+            "old_brand_id": 1,
+            "old_customer_no": 1025646682,
+            "date_of_obsolescence": "10/6/2010 12:31:00 PM"
+        },
+        {
+            "old_brand_id": 1,
+            "old_customer_no": 1023487386,
+            "date_of_obsolescence": "6/3/2010 4:24:00 PM"
+        }
+    ],
+    "whouse_customer": [
+        {
+            "customer_sk": null,
+            "first_trans_dt": null,
+            "last_trans_dt": null,
+            "trans_cnt_lifetime": null,
+            "total_sales_amt_lifetime": null,
+            "coupon_trans_cnt_lifetime": null,
+            "gross_margin_amt_lifetime": null,
+            "total_unit_cnt_lifetime": null,
+            "address_last_update_dttm": null,
+            "email_last_update_dttm": null,
+            "phone_last_update_dttm": null,
+            "mobile_last_update_dttm": null
+        }
+    ]
+}
