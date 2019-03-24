@@ -8,18 +8,25 @@ import java.util.Iterator;
 import org.ojai.Document;
 import org.ojai.DocumentStream;
 import org.ojai.store.Connection;
+import org.ojai.store.DocumentStore;
+import org.ojai.store.DriverManager;
 
 import com.mapr.db.MapRDB;
 import com.mapr.db.Table;
 import com.mapr.db.exceptions.DBException;
 
 public class MovieInfo {
+	private static Connection connection;
 	MovieInfo() {
 		//Connection connection = DriverManager.getConnection("ojai:mapr:10.20.30.66:5678?auth=basic;user=mapr;password=mapr;ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride=psnode66.ps.lab;");
-		//Connection connection = DriverManager.getConnection("ojai:mapr:");
-		/*
+		
+		Connection connection = DriverManager.getConnection("ojai:mapr:");
+		System.out.println("Successfully connected");
+		
+		
 		this.connection = connection;
-		final DocumentStore store = connection.getStore("maprdb_tables/movies");
+		final DocumentStore store = connection.getStore("/user/mapr/maprdb_tables/movies");
+		System.out.println("GetStore successful");
 
 	    // fetch all OJAI Documents from this store
 	    final DocumentStream stream = store.find();
@@ -36,7 +43,7 @@ public class MovieInfo {
 	    connection.close();
 
 	    System.out.println("==== End Application ===");
-	    */
+	    
 	}
 	Table table;
 	private Table getTable(String tableName) throws DBException {
@@ -73,3 +80,5 @@ public class MovieInfo {
 
 }
 
+
+		
