@@ -20,15 +20,15 @@ import org.ojai.store.QueryCondition.Op;
 import org.ojai.types.ODate;
 
 import com.mapr.db.MapRDB;
-import com.mapr.db.Table;
 
-public class CustomerTable {
+
+public class HouseTable {
 	
 	private Connection connection;
 	private DocumentStore store;
 	
 	/** create new table -- delete old one if it already exists  **/
-	CustomerTable(String tablePath) {
+	HouseTable(String tablePath) {
 		connection = DriverManager.getConnection("ojai:mapr:");
 		System.out.println("Successfully connected");
 		if (connection.storeExists(tablePath)) {
@@ -68,10 +68,10 @@ public class CustomerTable {
 		rs.close();
 	}
 	
-	public void printCustomerCouponCampaignNames() throws IOException {
-		System.out.println("Printing Coupons");
+	public void printWhouseTransSums() throws IOException {
+		System.out.println("Printing Whouse Trans Sums details");
 		Query query = connection.newQuery()
-				.select("customer_coupon[].campaign.campaign_nm")
+				.select("sas_whouse_cm_item_brand_chan_trans_sum[].total_sales_amt_lifetime","sas_whouse_cm_item_brand_chan_trans_sum[].processed_dttm")
 				.build();
 		DocumentStream rs =store.find(query);
 		for (final Document record: rs) {
@@ -79,20 +79,7 @@ public class CustomerTable {
 		}
 	}
 	
-	public void printPrefGroupCode(String val) throws IOException {
-		System.out.println("Matching Preferences");
-		QueryCondition condition = connection.newCondition()
-				.is("preferences[].preference_group.preference_group_code", Op.EQUAL, val)
-				.build();
-		Query query =connection.newQuery()
-				.select("preferences[].preference_group.preference_group_code")
-				.where(condition)
-				.build();
-		DocumentStream rs =store.find(query);
-		for (final Document record: rs) {
-			System.out.println("\t"+record.asJsonString(new JsonOptions().setPretty(true)));
-		}
-	}
+	
 }
 ;
 

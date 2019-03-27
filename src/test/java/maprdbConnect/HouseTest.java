@@ -18,35 +18,33 @@ import org.ojai.types.ODate;
 import com.google.gson.JsonParseException;
 
 
-public class CustomerTest {
-	static String  JSON_FILE = "data/customer.json";
-	String  TABLE_NAME ="Customer";
+public class HouseTest {
+	static String  JSON_FILE = "data/house.json";
+	String  TABLE_NAME ="House";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		CustomerTable ct = new CustomerTable("maprdb_tables/Customer");
+		HouseTable ht = new HouseTable("maprdb_tables/House");
 		try {
-			ct.printTableInformation();
+			ht.printTableInformation();
 			System.out.println("\n\nTable contents before insert");
 			System.out.println("================================");
-			ct.printDocuments();
+			ht.printDocuments();
 			System.out.println("================================");
 
 			//Read data from a json file
 			List<JSONObject> pl = getDataFromFile(JSON_FILE);
 			//Insert Json array into PersonTable
 			//Inserting just 10 elements
-			ct.insert(pl);
+			ht.insert(pl);
 			
 			System.out.println("\n\nTable contents after insert");
 			System.out.println("===============================");
-			ct.printDocuments();
+			ht.printDocuments();
 			System.out.println("================================");
 
 			//Testing query of level 2 data
-			ct.printCustomerCouponCampaignNames();
+			ht.printWhouseTransSums();			
 			
-			//Print preferences with preference_group_code = PERM
-			ct.printPrefGroupCode("PERM");
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -77,6 +75,7 @@ public class CustomerTest {
 
 
 }
+
 
 
 
